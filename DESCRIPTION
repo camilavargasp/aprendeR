@@ -6,6 +6,15 @@ Author: Who wrote it
 Maintainer: The package maintainer <yourself@somewhere.net>
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
-License: Apache License (>= 2)
+License: Apache License (>= 2) + file LICENSE
 Encoding: UTF-8
 LazyData: true
+URL: https://github.com/camilavargasp/aprendeR
+BugReports: https://github.com/camilavargasp/aprendeR/issues
+RoxygenNote: 7.2.3
+Imports: crayon, emo
+Remotes: hadley/emo
+Suggests: testthat,
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
